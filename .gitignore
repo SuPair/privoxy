@@ -1,3 +1,7 @@
 ### switch to Cmake
 .idea/
 cmake-build-debug/
+
+## autoheader(from configure.in)
+config.h.in
+autom4te.cache/
