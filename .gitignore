@@ -26,3 +26,10 @@ w32.res
 
 pcre/RunTest
 pcre/config.cache
+
+###
+config.txt
+pcre/config.h
+pcre/dftables
+pcre/pcre-config
+pcre/pcre.h
