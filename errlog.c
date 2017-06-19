@@ -1,4 +1,3 @@
-const char errlog_rcs[] = "$Id: errlog.c,v 1.126 2016/02/26 12:29:38 fabiankeil Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/errlog.c,v $
@@ -79,6 +78,7 @@ const char errlog_rcs[] = "$Id: errlog.c,v 1.126 2016/02/26 12:29:38 fabiankeil 
 #include "jbsockets.h"
 #endif
 
+const char errlog_rcs[] = "$Id: errlog.c,v 1.126 2016/02/26 12:29:38 fabiankeil Exp $";
 const char errlog_h_rcs[] = ERRLOG_H_VERSION;
 
 

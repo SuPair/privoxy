@@ -155,7 +155,7 @@ Returns:    nothing
 */
 
 void
-pcre_free_substring_list(const char **pointer)
+pcre_free_substring_list2(const char **pointer)
 {
 (pcre_free)((void *)pointer);
 }

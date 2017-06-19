@@ -1,4 +1,3 @@
-const char cgisimple_rcs[] = "$Id: cgisimple.c,v 1.142 2016/05/22 12:43:07 fabiankeil Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/cgisimple.c,v $
@@ -64,6 +63,7 @@ const char cgisimple_rcs[] = "$Id: cgisimple.c,v 1.142 2016/05/22 12:43:07 fabia
 #include "client-tags.h"
 #endif
 
+const char cgisimple_rcs[] = "$Id: cgisimple.c,v 1.142 2016/05/22 12:43:07 fabiankeil Exp $";
 const char cgisimple_h_rcs[] = CGISIMPLE_H_VERSION;
 
 static char *show_rcs(void);

@@ -1,4 +1,3 @@
-const char parsers_rcs[] = "$Id: parsers.c,v 1.309 2016/04/30 10:28:36 fabiankeil Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/parsers.c,v $
@@ -89,6 +88,8 @@ const char parsers_rcs[] = "$Id: parsers.c,v 1.309 2016/04/30 10:28:36 fabiankei
 #ifndef HAVE_STRPTIME
 #include "strptime.h"
 #endif
+
+const char parsers_rcs[] = "$Id: parsers.c,v 1.309 2016/04/30 10:28:36 fabiankeil Exp $";
 
 const char parsers_h_rcs[] = PARSERS_H_VERSION;
 

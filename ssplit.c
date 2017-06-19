@@ -1,4 +1,3 @@
-const char ssplit_rcs[] = "$Id: ssplit.c,v 1.20 2012/07/23 12:47:01 fabiankeil Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/ssplit.c,v $
@@ -41,6 +40,8 @@ const char ssplit_rcs[] = "$Id: ssplit.c,v 1.20 2012/07/23 12:47:01 fabiankeil E
 
 #include "ssplit.h"
 #include "miscutil.h"
+
+const char ssplit_rcs[] = "$Id: ssplit.c,v 1.20 2012/07/23 12:47:01 fabiankeil Exp $";
 
 const char ssplit_h_rcs[] = SSPLIT_H_VERSION;
 

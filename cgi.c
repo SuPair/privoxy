@@ -1,4 +1,3 @@
-const char cgi_rcs[] = "$Id: cgi.c,v 1.165 2016/05/03 13:22:30 fabiankeil Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/cgi.c,v $
@@ -69,6 +68,7 @@ const char cgi_rcs[] = "$Id: cgi.c,v 1.165 2016/05/03 13:22:30 fabiankeil Exp $"
 /* jcc.h is for mutex semaphore globals only */
 #include "jcc.h"
 
+const char cgi_rcs[] = "$Id: cgi.c,v 1.165 2016/05/03 13:22:30 fabiankeil Exp $";
 const char cgi_h_rcs[] = CGI_H_VERSION;
 
 /*

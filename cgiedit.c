@@ -1,4 +1,3 @@
-const char cgiedit_rcs[] = "$Id: cgiedit.c,v 1.89 2016/07/23 17:23:43 ler762 Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/cgiedit.c,v $
@@ -71,6 +70,7 @@ const char cgiedit_rcs[] = "$Id: cgiedit.c,v 1.89 2016/07/23 17:23:43 ler762 Exp
 #endif /* def FEATURE_TOGGLE */
 #include "urlmatch.h"
 
+const char cgiedit_rcs[] = "$Id: cgiedit.c,v 1.89 2016/07/23 17:23:43 ler762 Exp $";
 const char cgiedit_h_rcs[] = CGIEDIT_H_VERSION;
 
 

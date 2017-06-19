@@ -1,4 +1,3 @@
-const char pcrs_rcs[] = "$Id: pcrs.c,v 1.50 2016/05/25 10:50:28 fabiankeil Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/pcrs.c,v $
@@ -54,6 +53,8 @@ const char pcrs_rcs[] = "$Id: pcrs.c,v 1.50 2016/05/25 10:50:28 fabiankeil Exp $
 #include "encode.h"
 
 #include "pcrs.h"
+
+const char pcrs_rcs[] = "$Id: pcrs.c,v 1.50 2016/05/25 10:50:28 fabiankeil Exp $";
 
 const char pcrs_h_rcs[] = PCRS_H_VERSION;
 

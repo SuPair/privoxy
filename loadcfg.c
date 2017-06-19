@@ -1,4 +1,3 @@
-const char loadcfg_rcs[] = "$Id: loadcfg.c,v 1.153 2016/05/22 12:43:07 fabiankeil Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/loadcfg.c,v $
@@ -88,6 +87,8 @@ const char loadcfg_rcs[] = "$Id: loadcfg.c,v 1.153 2016/05/22 12:43:07 fabiankei
 #ifdef FEATURE_CLIENT_TAGS
 #include "client-tags.h"
 #endif
+
+const char loadcfg_rcs[] = "$Id: loadcfg.c,v 1.153 2016/05/22 12:43:07 fabiankeil Exp $";
 
 const char loadcfg_h_rcs[] = LOADCFG_H_VERSION;
 

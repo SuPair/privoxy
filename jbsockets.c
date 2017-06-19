@@ -1,4 +1,3 @@
-const char jbsockets_rcs[] = "$Id: jbsockets.c,v 1.137 2016/08/22 14:50:18 fabiankeil Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/jbsockets.c,v $
@@ -106,6 +105,7 @@ const char jbsockets_rcs[] = "$Id: jbsockets.c,v 1.137 2016/08/22 14:50:18 fabia
 #define AI_NUMERICSERV 0
 #endif
 
+const char jbsockets_rcs[] = "$Id: jbsockets.c,v 1.137 2016/08/22 14:50:18 fabiankeil Exp $";
 const char jbsockets_h_rcs[] = JBSOCKETS_H_VERSION;
 
 /*

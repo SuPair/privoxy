@@ -1,4 +1,3 @@
-const char loaders_rcs[] = "$Id: loaders.c,v 1.105 2016/05/25 10:50:55 fabiankeil Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/loaders.c,v $
@@ -62,6 +61,8 @@ const char loaders_rcs[] = "$Id: loaders.c,v 1.105 2016/05/25 10:50:55 fabiankei
 #include "actions.h"
 #include "urlmatch.h"
 #include "encode.h"
+
+char loaders_rcs[] = "$Id: loaders.c,v 1.105 2016/05/25 10:50:55 fabiankeil Exp $";
 
 const char loaders_h_rcs[] = LOADERS_H_VERSION;
 

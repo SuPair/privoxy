@@ -15,3 +15,14 @@ GNUmakefile
 config.log
 config.status
 doc/source/ldp.dsl
+
+###
+*.o
+*.exe
+*.so
+
+hello.c
+w32.res
+
+pcre/RunTest
+pcre/config.cache

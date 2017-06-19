@@ -1,4 +1,3 @@
-const char w32_svrapi_rcs[] = "$Id: w32svrapi.c,v 1.6 2016/07/22 12:12:33 ler762 Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/w32svrapi.c,v $
@@ -22,7 +21,7 @@ const char w32_svrapi_rcs[] = "$Id: w32svrapi.c,v 1.6 2016/07/22 12:12:33 ler762
  *                Written by and Copyright (C) 2003 Ian Cummings
  *                <ian_a_c@hotmail.com>
  *
- *                Special thanks to Mates Dolák <matesek@post.cz> for
+ *                Special thanks to Mates Dolï¿½k <matesek@post.cz> for
  *                some very helpful feedback and suggestions during the
  *                development of this code.
  *
@@ -64,6 +63,8 @@ const char w32_svrapi_rcs[] = "$Id: w32svrapi.c,v 1.6 2016/07/22 12:12:33 ler762
 #endif /* ndef _WIN_CONSOLE */
 
 #include "w32svrapi.h"
+const char w32_svrapi_rcs[] = "$Id: w32svrapi.c,v 1.6 2016/07/22 12:12:33 ler762 Exp $";
+
 const char w32_svrapi_h_rcs[] = W32_SVRAPI_H_VERSION;
 
 

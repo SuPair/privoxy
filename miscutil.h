@@ -71,6 +71,7 @@ extern char *make_path(const char * dir, const char * file);
 
 long int pick_from_range(long int range);
 
+#define HAVE_SNPRINTF 1
 #ifndef HAVE_SNPRINTF
 extern int snprintf(char *, size_t, const char *, /*args*/ ...);
 #endif /* ndef HAVE_SNPRINTF */

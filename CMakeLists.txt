@@ -2,6 +2,12 @@ cmake_minimum_required(VERSION 3.8)
 project(privoxy_3_0_26_stable)
 
 set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_VERBOSE_MAKEFILE ON)
+if(MINGW)
+    set(CMAKE_EXE_LINKER_FLAGS "-static -mwindows")
+    set(CMAKE_EXE_LINKER_FLAGS_RELEASE "-s")
+    SET(CMAKE_EXE_LINKER_FLAGS "-lwsock32 -lcomctl32")
+endif()
 
 set(SOURCE_FILES
         pcre/chartables.c

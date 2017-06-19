@@ -51,7 +51,7 @@ case in PCRE. */
 #if HAVE_BCOPY
 #define memmove(a, b, c) bcopy(b, a, c)
 #else
-void *
+void*
 pcre_memmove(unsigned char *dest, const unsigned char *src, size_t n)
 {
 int i;
@@ -59,7 +59,7 @@ dest += n;
 src += n;
 for (i = 0; i < n; ++i) *(--dest) =  *(--src);
 }
-#define memmove(a, b, c) pcre_memmove(a, b, c)
+//#define memmove(a, b, c) pcre_memmove(a, b, c)
 #endif
 #endif
 

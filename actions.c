@@ -1,4 +1,3 @@
-const char actions_rcs[] = "$Id: actions.c,v 1.97 2016/05/03 13:20:37 fabiankeil Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/actions.c,v $
@@ -57,6 +56,7 @@ const char actions_rcs[] = "$Id: actions.c,v 1.97 2016/05/03 13:20:37 fabiankeil
 #include "ssplit.h"
 #include "filters.h"
 
+char actions_rcs[] = "$Id: actions.c,v 1.97 2016/05/03 13:20:37 fabiankeil Exp $";
 const char actions_h_rcs[] = ACTIONS_H_VERSION;
 
 

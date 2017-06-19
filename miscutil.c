@@ -1,4 +1,3 @@
-const char miscutil_rcs[] = "$Id: miscutil.c,v 1.82 2016/07/23 23:05:15 ler762 Exp $";
 /*********************************************************************
  *
  * File        :  $Source: /cvsroot/ijbswa/current/miscutil.c,v $
@@ -64,6 +63,8 @@ const char miscutil_rcs[] = "$Id: miscutil.c,v 1.82 2016/07/23 23:05:15 ler762 E
 #include "miscutil.h"
 #include "errlog.h"
 #include "jcc.h"
+
+const char miscutil_rcs[] = "$Id: miscutil.c,v 1.82 2016/07/23 23:05:15 ler762 Exp $";
 
 const char miscutil_h_rcs[] = MISCUTIL_H_VERSION;
 
@@ -945,7 +946,7 @@ time_t timegm(struct tm *tm)
 Author
 
    Mark Martinec <mark.martinec@ijs.si>, April 1999, June 2000
-   Copyright © 1999, Mark Martinec
+   Copyright ï¿½ 1999, Mark Martinec
 
  */
 

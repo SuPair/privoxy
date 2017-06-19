@@ -67,7 +67,7 @@
  */
 
 #ifdef STATIC_PCRE
-#  include "pcre.h"
+#  include "pcre/pcre.h"
 #else
 #  ifdef PCRE_H_IN_SUBDIR
 #    include <pcre/pcre.h>
@@ -83,7 +83,7 @@
 #endif
 
 #ifdef STATIC_PCRE
-#  include "pcreposix.h"
+#  include "pcre/pcreposix.h"
 #else
 #  ifdef PCRE_H_IN_SUBDIR
 #    include <pcre/pcreposix.h>
