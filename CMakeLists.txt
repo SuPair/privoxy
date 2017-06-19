@@ -3,25 +3,25 @@ project(privoxy_3_0_26_stable)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_VERBOSE_MAKEFILE ON)
-if(MINGW)
-    set(CMAKE_EXE_LINKER_FLAGS "-static -mwindows")
+if (MINGW)
+    set(CMAKE_EXE_LINKER_FLAGS "-mwindows")
     set(CMAKE_EXE_LINKER_FLAGS_RELEASE "-s")
-    SET(CMAKE_EXE_LINKER_FLAGS "-lwsock32 -lcomctl32")
-endif()
+    link_libraries("wsock32" "comctl32" "pcre")
+endif ()
 
 set(SOURCE_FILES
         pcre/chartables.c
         pcre/config.h
-        pcre/dftables.c
+        #        pcre/dftables.c
         pcre/get.c
         pcre/internal.h
         pcre/maketables.c
         pcre/pcre.c
         pcre/pcre.h
-        pcre/pcregrep.c
+        #        pcre/pcregrep.c
         pcre/pcreposix.c
         pcre/pcreposix.h
-        pcre/pcretest.c
+        #        pcre/pcretest.c
         pcre/study.c
         acconfig.h
         actionlist.h
@@ -80,4 +80,52 @@ set(SOURCE_FILES
         win32.c
         win32.h)
 
+set(DFTABLES_SOURCE_FILES
+        pcre/chartables.c
+        pcre/config.h
+        pcre/dftables.c
+        pcre/get.c
+        pcre/internal.h
+        pcre/maketables.c
+        pcre/pcre.c
+        pcre/pcre.h
+        #        pcre/pcregrep.c
+        pcre/pcreposix.c
+        pcre/pcreposix.h
+        #        pcre/pcretest.c
+        pcre/study.c)
+
+set(PCREGREP_SOURCE_FILES
+        pcre/chartables.c
+        pcre/config.h
+        #                pcre/dftables.c
+        pcre/get.c
+        pcre/internal.h
+        pcre/maketables.c
+        pcre/pcre.c
+        pcre/pcre.h
+        pcre/pcregrep.c
+        pcre/pcreposix.c
+        pcre/pcreposix.h
+        #        pcre/pcretest.c
+        pcre/study.c)
+
+set(PCRETEST_SOURCE_FILES
+        pcre/chartables.c
+        pcre/config.h
+        #                pcre/dftables.c
+        pcre/get.c
+        pcre/internal.h 
+        pcre/maketables.c
+        pcre/pcre.c
+        pcre/pcre.h
+        #        pcre/pcregrep.c
+        pcre/pcreposix.c
+        pcre/pcreposix.h
+        pcre/pcretest.c
+        pcre/study.c)
+
 add_executable(privoxy_3_0_26_stable ${SOURCE_FILES})
+add_executable(dftables ${DFTABLES_SOURCE_FILES})
+add_executable(pcregrep ${PCREGREP_SOURCE_FILES})
+add_executable(pcretest ${PCRETEST_SOURCE_FILES})

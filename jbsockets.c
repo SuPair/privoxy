@@ -135,10 +135,10 @@ static jb_socket no_rfc2553_connect_to(const char *host, int portnum, struct cli
  * Returns     :  void
  *
  *********************************************************************/
-static void set_no_delay_flag(int fd)
+static void set_no_delay_flag(SOCKET fd)
 {
 #ifdef TCP_NODELAY
-   int mi = 1;
+   char mi = 1;
 
    if (setsockopt(fd, IPPROTO_TCP, TCP_NODELAY, &mi, sizeof(int)))
    {
@@ -1304,6 +1304,7 @@ int accept_connection(struct client_state * csp, jb_socket fds[])
    }
 #endif
 
+#undef SO_LINGER
 #ifdef SO_LINGER
    {
       struct linger linger_options;
