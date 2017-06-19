@@ -4295,7 +4295,7 @@ static jb_err parse_header_time(const char *header_time, time_t *result)
                header_time, time_formats[i]);
             continue;
          }
-         *result = timegm(&gmt);
+         *result = gmtime(&gmt);
 
 #ifdef FEATURE_STRPTIME_SANITY_CHECKS
          /*
