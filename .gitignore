@@ -33,3 +33,4 @@ pcre/config.h
 pcre/dftables
 pcre/pcre-config
 pcre/pcre.h
+pcre/Makefile
