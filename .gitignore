@@ -8,3 +8,10 @@ autom4te.cache/
 
 ## autoconf (from configure.in)
 configure
+
+## configure(from configure)
+config.h
+GNUmakefile
+config.log
+config.status
+doc/source/ldp.dsl
